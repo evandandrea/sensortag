@@ -12,7 +12,7 @@ apps:
 
 parts:
   bluepy:
-    plugin: python3
+    plugin: python
     source: https://github.com/IanHarvey/bluepy
     source-type: git
     build-packages: [libglib2.0-dev]
