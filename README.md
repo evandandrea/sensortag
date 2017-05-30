@@ -18,13 +18,13 @@ A0:E6:F8:B6:E7:86 CC2650 SensorTag
 Connect the interfaces so sensortag can use the btle stack:
 
 ```
-sudo snap connect sensortag:bluetooth-control core:bluetooth-control
+sudo snap connect mysensortag:bluetooth-control core:bluetooth-control
 ```
 
 Call sensortag with --all to get reading from all the sensors and -n 2 to get two readings, do specify the address of your sensortag device.
 
 ```
-~$ sudo sensortag --all -n 1 A0:E6:F8:B6:E7:86
+~$ mysensortag.sensortag --all -n 1 A0:E6:F8:B6:E7:86
 Connecting to A0:E6:F8:B6:E7:86
 ('Temp: ', (26.125, 19.375))
 ('Humidity: ', (26.31622314453125, 48.590087890625))
