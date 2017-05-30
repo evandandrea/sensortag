@@ -8,11 +8,12 @@ grade: stable
 apps:
   sensortag:
     command: bin/sensortag
-    plugs: [bluetooth-control, network-bind]
+    plugs: [bluetooth-control]
 
 parts:
   bluepy:
     plugin: python
+    python-version: python3
     source: https://github.com/IanHarvey/bluepy
     source-type: git
     build-packages: [libglib2.0-dev]
