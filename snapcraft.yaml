@@ -1,4 +1,4 @@
-name: sensortag
+name: mysensortag
 version: 1.0.5.2
 summary: SensorTag Python Bluetooth LE implementation
 description: API and command line tools for Python Bluetooth Low Energy access
