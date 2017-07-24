@@ -1,4 +1,7 @@
 # Sensortag
+
+[![Snap Status](https://build.snapcraft.io/badge/pedrococa/sensortag.svg)](https://build.snapcraft.io/user/pedrococa/sensortag)
+
 BTLE TI Sensortag snapcraft yaml file to buils a sensortag snap
 
 # Build and run the snap
